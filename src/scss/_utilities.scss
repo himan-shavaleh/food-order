@@ -1,0 +1,201 @@
+.container {
+  max-width: 1600px;
+  margin: auto;
+}
+// background classes
+.bg-primary {
+  background: $color-primary;
+}
+.bg-secondary {
+  background: $color-secondary;
+}
+.bg-light {
+  background: $color-light;
+}
+.bg-orange {
+  background: $color-orange;
+}
+// text-color-classes
+.text-color-dark {
+  color: $color-dark;
+}
+.text-color-darker {
+  color: $color-darker;
+}
+.text-color-light {
+  color: $color-light;
+}
+.text-color-orange {
+  color: $color-orange;
+}
+.text-color-danger {
+  color: $color-danger;
+}
+
+//   text classes
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+// border radius classes
+.border-radius-circle {
+  border-radius: 50%;
+}
+.border-radius-low {
+  border-radius: 1rem;
+}
+.border-radius-medium {
+  border-radius: 1.5rem;
+}
+.border-radius-high {
+  border-radius: 2rem;
+}
+// padding classes
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+.p-4 {
+  padding: 4rem;
+}
+.p-5 {
+  padding: 5rem;
+}
+
+.py-1 {
+  padding: 0 1rem;
+}
+.py-2 {
+  padding: 0 2rem;
+}
+.py-3 {
+  padding: 0 3rem;
+}
+.py-4 {
+  padding: 0 4rem;
+}
+.py-5 {
+  padding: 0 5rem;
+}
+
+.px-1 {
+  padding: 1rem 0;
+}
+.px-2 {
+  padding: 2rem 0;
+}
+.px-3 {
+  padding: 3rem 0;
+}
+.px-4 {
+  padding: 4rem 0;
+}
+.px-5 {
+  padding: 5rem 0;
+}
+// margin classes
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.m-3 {
+  margin: 3rem;
+}
+.m-4 {
+  margin: 4rem;
+}
+.m-5 {
+  margin: 5rem;
+}
+
+.my-1 {
+  padding: 0 1rem;
+}
+.my-2 {
+  padding: 0 2rem;
+}
+.my-3 {
+  padding: 0 3rem;
+}
+.my-4 {
+  padding: 0 4rem;
+}
+.my-5 {
+  padding: 0 5rem;
+}
+
+.mx-1 {
+  padding: 1rem 0;
+}
+.mx-2 {
+  padding: 2rem 0;
+}
+.mx-3 {
+  padding: 3rem 0;
+}
+.mx-4 {
+  padding: 4rem 0;
+}
+.mx-5 {
+  padding: 5rem 0;
+}
+
+// display classes
+.d-grid {
+  display: grid;
+}
+.d-flex {
+  display: flex;
+}
+// justify classes
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.btn {
+  display: block;
+  padding: 1rem 2rem;
+  transition: all 0.5s;
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin: 1rem auto;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  &:hover {
+    background: transparent;
+  }
+}
+.btn-succes {
+  color: $color-dark;
+  background: $color-succes;
+  &:hover {
+    color: $color-succes;
+    box-shadow: 0 0 1rem $color-succes;
+  }
+}
+.btn-danger {
+  color: $color-dark;
+  background: $color-danger;
+  &:hover {
+    color: $color-danger;
+    box-shadow: 0 0 1rem $color-danger;
+  }
+}

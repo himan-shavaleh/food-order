@@ -1,0 +1,27 @@
+{
+  "name": "order-food",
+  "version": "1.0.0",
+  "description": "a web app for foodp dilevery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "order-food-app"
+  },
+  "author": "himan shavaleh",
+  "license": "ISC",
+  "dependencies": {
+    "boxicons": "^2.1.2",
+    "core-js": "^3.23.5",
+    "corejs": "^1.0.0",
+    "fractional": "^1.0.0",
+    "parcel": "^2.6.2",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2"
+  }
+}

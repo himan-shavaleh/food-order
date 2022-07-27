@@ -1,0 +1,43 @@
+// import fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Staatliches&display=swap");
+// roboto sans serif , Stootliches cursive
+
+// color variables
+$color-primary: #caf0f8;
+$color-gray: #f7f7f7;
+$color-secondary: #eeeeee;
+$color-dark: #383838;
+$color-darker: #1b1a17;
+$color-orange: #f76e11;
+$color-light: #ffffff;
+$color-danger: rgb(248, 108, 108);
+$color-succes: rgb(152, 248, 108);
+// resets
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  background: $color-secondary;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "roboto", sans-serif;
+}
+
+a,
+p,
+li {
+  font-family: "Staatliches", cursive;
+}
