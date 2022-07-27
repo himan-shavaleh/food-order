@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="/index.b10d73a7.css">
+    <title>Didar Resturaant | digital menu</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header id="header" class="p-2 container">
+      <nav class="navbar">
+        <ul class="nav d-grid justify-between align-center">
+          <li class="nav__item logo">
+            <a href="/index.html" class="nav__item-link">
+              <img class="border-radius-circle" src="/large.9bc0c157.png" width="150" height="80" alt="logo">
+            </a>
+          </li>
+
+          <li class="nav__item top-menu d-flex justify-between align-center">
+            <a href="#" class="account nav__item-link d-flex justify-center align-center text-color-danger text-uppercase"><span class="title">account</span>
+              <box-icon color="#f94747" name="user" type="solid"></box-icon></a>
+            <a href="#" class="show-cart-btn nav__item-link d-flex justify-center align-center text-color-danger text-uppercase"><span class="title">cart</span>
+              <box-icon color="#f94747" name="cart"></box-icon>
+              <span class="cart-quantity">0</span>
+            </a>
+            <a href="#" class="offers nav__item-link d-flex justify-center align-center text-color-danger text-uppercase"><span class="title">offers</span>
+              <box-icon color="#f94747" name="offer" type="solid"></box-icon></a>
+            <a href="#" class="search nav__item-link d-flex justify-center align-center text-color-danger text-uppercase"><span class="title">search</span>
+              <box-icon name="search-alt-2" color="#f94747"></box-icon></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end of header -->
+
+    <!-- main -->
+    <main id="main">
+      <!-- Right Menu -->
+      <a href="#" class="toggler-btn"><i class="bx bx-menu-alt-right"></i></a>
+      <menu id="right-menu" class="p-3">
+        <ul class="nav">
+          <li class="nav__item mx-2 home">
+            <a href="" class="nav__item-link text-color-dark">home</a>
+          </li>
+          <li class="nav__item mx-2">
+            <a href="" class="nav__item-link text-color-dark">services</a>
+          </li>
+          <li class="nav__item mx-2">
+            <a href="" class="nav__item-link text-color-dark wishlist">wishlist <span class="wishlist-counter">0</span></a>
+          </li>
+          <li class="nav__item mx-2">
+            <a href="" class="nav__item-link text-color-dark">about</a>
+          </li>
+        </ul>
+      </menu>
+      <section id="app">
+        <div id="meals"></div>
+        <div id="pagination"></div>
+      </section>
+      <!-- category -->
+      <aside id="category"></aside>
+      <!-- End of category -->
+    </main>
+    <!-- end of main -->
+    <!-- modals -->
+    <div class="modal modal-search hidden">
+      <div class="overlay"></div>
+      <a href="#" class="btn close-modal">
+        <i class="bx bx-message-square-x"></i>
+      </a>
+      <div class="modal-search-content">
+        <form class="search-form">
+          <input placeholder="search food name you want" type="search" name="search" id="search">
+          <button class="btn btn-danger submit-search-btn">
+            <i class="bx bx-search-alt"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- wishlist modal -->
+    <div class="modal wishlist-modal hidden">
+      <a href="#" class="btn close-modal">
+        <i class="bx bx-message-square-x"></i>
+      </a>
+      <div class="overlay"></div>
+      <ul class="wishlist-meals"></ul>
+    </div>
+
+    <script src="/index.e37f48ea.js" defer=""></script>
+  </body>
+</html>
